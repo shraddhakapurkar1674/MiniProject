@@ -1,0 +1,279 @@
+2026-08-25T12:39:58.453+05:30  INFO 23232 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Starting ImsProjectApplication using Java 17.0.7 with PID 23232 (D:\ProjectInventoryManagementSystem\IMSProject\target\classes started by Admin in D:\ProjectInventoryManagementSystem\IMSProject)
+2026-08-25T12:39:58.463+05:30  INFO 23232 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:39:58.612+05:30  INFO 23232 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-25T12:39:58.613+05:30  INFO 23232 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-25T12:40:02.049+05:30  INFO 23232 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-25T12:40:02.121+05:30  INFO 23232 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 42 ms. Found 0 JDBC repository interfaces.
+2026-08-25T12:40:03.924+05:30  INFO 23232 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-08-25T12:40:03.970+05:30  INFO 23232 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:40:03.971+05:30  INFO 23232 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-25T12:40:04.139+05:30  INFO 23232 --- [IMSProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-25T12:40:04.139+05:30  INFO 23232 --- [IMSProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5521 ms
+2026-08-25T12:40:06.293+05:30  INFO 23232 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:40:07.310+05:30  INFO 23232 --- [IMSProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@211ae6fe
+2026-08-25T12:40:07.314+05:30  INFO 23232 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:40:07.928+05:30  INFO 23232 --- [IMSProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-08-25T12:40:08.008+05:30  WARN 23232 --- [IMSProject] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-25T12:40:08.021+05:30  INFO 23232 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:40:08.052+05:30  INFO 23232 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-25T12:40:08.087+05:30  INFO 23232 --- [IMSProject] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-25T12:40:08.134+05:30 ERROR 23232 --- [IMSProject] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-25T12:40:25.297+05:30  INFO 21676 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Starting ImsProjectApplication using Java 17.0.7 with PID 21676 (D:\ProjectInventoryManagementSystem\IMSProject\target\classes started by Admin in D:\ProjectInventoryManagementSystem\IMSProject)
+2026-08-25T12:40:25.303+05:30  INFO 21676 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:40:25.419+05:30  INFO 21676 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-25T12:40:25.420+05:30  INFO 21676 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-25T12:40:26.756+05:30  INFO 21676 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-25T12:40:26.793+05:30  INFO 21676 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 0 JDBC repository interfaces.
+2026-08-25T12:40:27.521+05:30  INFO 21676 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-08-25T12:40:27.547+05:30  INFO 21676 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:40:27.548+05:30  INFO 21676 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-25T12:40:27.636+05:30  INFO 21676 --- [IMSProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-25T12:40:27.637+05:30  INFO 21676 --- [IMSProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2216 ms
+2026-08-25T12:40:28.636+05:30  INFO 21676 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:40:29.200+05:30  INFO 21676 --- [IMSProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4c190797
+2026-08-25T12:40:29.204+05:30  INFO 21676 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:40:29.465+05:30  INFO 21676 --- [IMSProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-08-25T12:40:29.522+05:30  WARN 21676 --- [IMSProject] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2026-08-25T12:40:29.531+05:30  INFO 21676 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:40:29.577+05:30  INFO 21676 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-25T12:40:29.607+05:30  INFO 21676 --- [IMSProject] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-08-25T12:40:29.651+05:30 ERROR 21676 --- [IMSProject] [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2026-08-25T12:42:11.632+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Starting ImsProjectApplication using Java 17.0.7 with PID 24192 (D:\ProjectInventoryManagementSystem\IMSProject\target\classes started by Admin in D:\ProjectInventoryManagementSystem\IMSProject)
+2026-08-25T12:42:11.638+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:42:11.765+05:30  INFO 24192 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-25T12:42:11.766+05:30  INFO 24192 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-25T12:42:13.207+05:30  INFO 24192 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-25T12:42:13.243+05:30  INFO 24192 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 0 JDBC repository interfaces.
+2026-08-25T12:42:14.027+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-08-25T12:42:14.049+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:42:14.050+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-25T12:42:14.143+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-25T12:42:14.144+05:30  INFO 24192 --- [IMSProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2377 ms
+2026-08-25T12:42:15.196+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T12:42:15.751+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@15884652
+2026-08-25T12:42:15.754+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T12:42:16.067+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-08-25T12:42:16.203+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-08-25T12:42:16.246+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Started ImsProjectApplication in 5.472 seconds (process running for 6.95)
+2026-08-25T12:42:48.124+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-25T12:42:48.124+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-25T12:42:48.124+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-08-25T12:42:49.551+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-10] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 644 ms
+2026-08-25T12:44:19.499+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 10
+2026-08-25T12:44:20.306+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Found 2 low stock products
+2026-08-25T12:45:27.865+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 1
+2026-08-25T12:45:27.883+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Product found successfully with id: 1
+2026-08-25T12:45:59.229+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T12:49:15.315+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to update product with id: 5
+2026-08-25T12:49:15.475+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product updated successfully with id: 5
+2026-08-25T12:50:05.940+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T12:51:16.369+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Received request to update product with id: 5
+2026-08-25T12:51:16.387+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Product updated successfully with id: 5
+2026-08-25T12:51:19.122+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Received request to update product with id: 5
+2026-08-25T12:51:19.130+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Product updated successfully with id: 5
+2026-08-25T12:51:33.187+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T12:52:03.607+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : Searching products by category: electronic
+2026-08-25T12:52:03.618+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : Found 2 products in category electronic
+2026-08-25T12:53:13.914+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Received request to save product: mouse
+2026-08-25T12:53:13.965+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Product saved successfully: mouse
+2026-08-25T12:53:44.158+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 10
+2026-08-25T12:53:44.161+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Found 3 low stock products
+2026-08-25T12:54:21.737+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to delete product with id: 6
+2026-08-25T12:54:21.795+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product deleted successfully with id: 6
+2026-08-25T12:54:35.145+05:30  INFO 24192 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T12:59:07.822+05:30  INFO 24192 --- [IMSProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2026-08-25T12:59:07.841+05:30  INFO 24192 --- [IMSProject] [Thread-5] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:59:07.936+05:30  INFO 24192 --- [IMSProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-08-25T12:59:07.946+05:30  INFO 24192 --- [IMSProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T12:59:07.958+05:30  INFO 24192 --- [IMSProject] [Thread-5] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-08-25T12:59:08.049+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Starting ImsProjectApplication using Java 17.0.7 with PID 24192 (D:\ProjectInventoryManagementSystem\IMSProject\target\classes started by Admin in D:\ProjectInventoryManagementSystem\IMSProject)
+2026-08-25T12:59:08.050+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:59:08.319+05:30  INFO 24192 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-25T12:59:08.323+05:30  INFO 24192 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2026-08-25T12:59:08.409+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-08-25T12:59:08.410+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:59:08.410+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-25T12:59:08.432+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-25T12:59:08.432+05:30  INFO 24192 --- [IMSProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 375 ms
+2026-08-25T12:59:08.608+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2026-08-25T12:59:08.640+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@23a99ec8
+2026-08-25T12:59:08.640+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2026-08-25T12:59:08.671+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-08-25T12:59:08.684+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-08-25T12:59:08.691+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Started ImsProjectApplication in 0.671 seconds (process running for 1019.387)
+2026-08-25T12:59:08.693+05:30  INFO 24192 --- [IMSProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-08-25T12:59:40.021+05:30  INFO 24192 --- [IMSProject] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 18 class path changes (0 additions, 0 deletions, 18 modifications)
+2026-08-25T12:59:40.023+05:30  INFO 24192 --- [IMSProject] [Thread-7] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:59:40.092+05:30  INFO 24192 --- [IMSProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-08-25T12:59:40.094+05:30  INFO 24192 --- [IMSProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2026-08-25T12:59:40.098+05:30  INFO 24192 --- [IMSProject] [Thread-7] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.
+2026-08-25T12:59:40.170+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Starting ImsProjectApplication using Java 17.0.7 with PID 24192 (D:\ProjectInventoryManagementSystem\IMSProject\target\classes started by Admin in D:\ProjectInventoryManagementSystem\IMSProject)
+2026-08-25T12:59:40.170+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T12:59:40.335+05:30  INFO 24192 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-25T12:59:40.338+05:30  INFO 24192 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JDBC repository interfaces.
+2026-08-25T12:59:40.391+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-08-25T12:59:40.392+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T12:59:40.392+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-25T12:59:40.407+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-25T12:59:40.408+05:30  INFO 24192 --- [IMSProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 235 ms
+2026-08-25T12:59:40.513+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Starting...
+2026-08-25T12:59:40.524+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-3 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f775993
+2026-08-25T12:59:40.525+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Start completed.
+2026-08-25T12:59:40.540+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-08-25T12:59:40.549+05:30  INFO 24192 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-08-25T12:59:40.555+05:30  INFO 24192 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Started ImsProjectApplication in 0.412 seconds (process running for 1051.251)
+2026-08-25T12:59:40.557+05:30  INFO 24192 --- [IMSProject] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2026-08-25T12:59:49.091+05:30  INFO 24192 --- [IMSProject] [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-08-25T12:59:49.092+05:30  INFO 24192 --- [IMSProject] [RMI TCP Connection(21)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T12:59:49.152+05:30  INFO 24192 --- [IMSProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-08-25T12:59:49.155+05:30  INFO 24192 --- [IMSProject] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown initiated...
+2026-08-25T12:59:49.158+05:30  INFO 24192 --- [IMSProject] [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-3 - Shutdown completed.
+2026-08-25T13:00:00.319+05:30  INFO 14280 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Starting ImsProjectApplication using Java 17.0.7 with PID 14280 (D:\ProjectInventoryManagementSystem\IMSProject\target\classes started by Admin in D:\ProjectInventoryManagementSystem\IMSProject)
+2026-08-25T13:00:00.321+05:30  INFO 14280 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : No active profile set, falling back to 1 default profile: "default"
+2026-08-25T13:00:00.386+05:30  INFO 14280 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-08-25T13:00:00.386+05:30  INFO 14280 --- [IMSProject] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-08-25T13:00:01.329+05:30  INFO 14280 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2026-08-25T13:00:01.348+05:30  INFO 14280 --- [IMSProject] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 12 ms. Found 0 JDBC repository interfaces.
+2026-08-25T13:00:02.103+05:30  INFO 14280 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8081 (http)
+2026-08-25T13:00:02.129+05:30  INFO 14280 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-08-25T13:00:02.130+05:30  INFO 14280 --- [IMSProject] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2026-08-25T13:00:02.253+05:30  INFO 14280 --- [IMSProject] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-08-25T13:00:02.254+05:30  INFO 14280 --- [IMSProject] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1868 ms
+2026-08-25T13:00:02.836+05:30  INFO 14280 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-08-25T13:00:03.132+05:30  INFO 14280 --- [IMSProject] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@50cfa90f
+2026-08-25T13:00:03.135+05:30  INFO 14280 --- [IMSProject] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-08-25T13:00:03.290+05:30  INFO 14280 --- [IMSProject] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2026-08-25T13:00:03.343+05:30  INFO 14280 --- [IMSProject] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8081 (http) with context path '/'
+2026-08-25T13:00:03.355+05:30  INFO 14280 --- [IMSProject] [restartedMain] com.example.demo.ImsProjectApplication   : Started ImsProjectApplication in 3.519 seconds (process running for 4.301)
+2026-08-25T13:00:12.270+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-08-25T13:00:12.270+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-08-25T13:00:12.271+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2026-08-25T13:00:12.815+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 242 ms
+2026-08-25T13:05:17.337+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : Searching products by category: electronic
+2026-08-25T13:05:17.386+05:30  WARN 14280 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : No products found in category: electronic
+2026-08-25T13:05:17.386+05:30  WARN 14280 --- [IMSProject] [http-nio-8081-exec-7] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.Exception.ProductNotFoundException: Category not foundelectronic]
+2026-08-25T13:05:57.719+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Searching products by category: Electronics
+2026-08-25T13:05:57.720+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Found 5 products in category Electronics
+2026-08-25T13:11:06.055+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T13:11:06.080+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T13:13:24.872+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T13:13:24.919+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T13:15:53.098+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Received request to update stock of product id: 7
+2026-08-25T13:15:53.110+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Stock updated successfully for product id: 7
+2026-08-25T13:16:27.913+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 10
+2026-08-25T13:16:27.917+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Found 3 low stock products
+2026-08-25T13:17:00.855+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 9
+2026-08-25T13:17:00.866+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product found successfully with id: 9
+2026-08-25T13:17:19.229+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T13:18:56.782+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T13:18:56.811+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T13:19:43.778+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Received request to save product: Laptop
+2026-08-25T13:19:43.796+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Product saved successfully: Laptop
+2026-08-25T13:20:03.853+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to update stock of product id: 7
+2026-08-25T13:20:03.879+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Stock updated successfully for product id: 7
+2026-08-25T13:20:18.996+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 10
+2026-08-25T13:20:19.000+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Found 2 low stock products
+2026-08-25T13:20:36.224+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 9
+2026-08-25T13:20:36.227+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Product found successfully with id: 9
+2026-08-25T13:20:50.021+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T13:21:11.254+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Searching products by category: Electronics
+2026-08-25T13:21:11.269+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Found 6 products in category Electronics
+2026-08-25T13:21:29.847+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : Received request to delete product with id: 16
+2026-08-25T13:21:29.877+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : Product deleted successfully with id: 16
+2026-08-25T13:23:43.000+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T13:23:43.016+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T13:24:08.386+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T13:28:09.175+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T13:28:09.208+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T13:28:54.101+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Received request to save product: Laptop
+2026-08-25T13:28:54.136+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Product saved successfully: Laptop
+2026-08-25T13:29:17.148+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Received request to update stock of product id: 9
+2026-08-25T13:29:17.170+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Stock updated successfully for product id: 9
+2026-08-25T13:29:29.330+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 10
+2026-08-25T13:29:29.341+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Found 3 low stock products
+2026-08-25T13:29:50.404+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 11
+2026-08-25T13:29:50.406+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product found successfully with id: 11
+2026-08-25T13:30:01.189+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T13:30:26.028+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Searching products by category: electronics
+2026-08-25T13:30:26.034+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Found 7 products in category electronics
+2026-08-25T14:25:27.555+05:30  WARN 14280 --- [IMSProject] [HikariPool-1:housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=54m23s973ms242µs400ns).
+2026-08-25T14:28:10.422+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T14:28:10.445+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-1] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T14:28:56.969+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to save product: Laptop
+2026-08-25T14:28:57.000+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product saved successfully: Laptop
+2026-08-25T14:29:18.794+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Received request to update stock of product id: 7
+2026-08-25T14:29:18.815+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Stock updated successfully for product id: 7
+2026-08-25T14:29:30.413+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 11
+2026-08-25T14:29:30.419+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Found 3 low stock products
+2026-08-25T14:29:52.224+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 19
+2026-08-25T14:29:52.229+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Product found successfully with id: 19
+2026-08-25T14:30:02.968+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 21
+2026-08-25T14:30:02.988+05:30 ERROR 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Product not found with id: 21
+2026-08-25T14:30:03.010+05:30  WARN 14280 --- [IMSProject] [http-nio-8081-exec-6] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.Exception.ProductNotFoundException: Product not found id21]
+2026-08-25T14:30:12.298+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T14:30:32.705+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Searching products by category: electronics
+2026-08-25T14:30:32.709+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Found 8 products in category electronics
+2026-08-25T14:30:51.224+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Received request to delete product with id: 19
+2026-08-25T14:30:51.269+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Product deleted successfully with id: 19
+2026-08-25T14:47:27.700+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T14:49:04.587+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T14:49:04.619+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T14:49:46.178+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Received request to save product: laptop
+2026-08-25T14:49:46.206+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-3] c.e.demo.Controller.ProductController    : Product saved successfully: laptop
+2026-08-25T14:50:05.987+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Received request to update stock of product id: 7
+2026-08-25T14:50:06.011+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-4] c.e.demo.Controller.ProductController    : Stock updated successfully for product id: 7
+2026-08-25T14:50:21.756+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 11
+2026-08-25T14:50:21.762+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-5] c.e.demo.Controller.ProductController    : Found 3 low stock products
+2026-08-25T14:50:37.332+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 9
+2026-08-25T14:50:37.334+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Product found successfully with id: 9
+2026-08-25T14:50:48.297+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-7] c.e.demo.Controller.ProductController    : Received request to fetch all products
+2026-08-25T14:51:06.163+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Searching products by category: electronics
+2026-08-25T14:51:06.168+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Found 8 products in category electronics
+2026-08-25T14:51:21.116+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Received request to delete product with id: 19
+2026-08-25T14:51:21.119+05:30 ERROR 14280 --- [IMSProject] [http-nio-8081-exec-8] c.e.demo.Controller.ProductController    : Product not found for deletion. Id: 19
+2026-08-25T14:51:21.152+05:30  WARN 14280 --- [IMSProject] [http-nio-8081-exec-8] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.example.demo.Exception.ProductNotFoundException: Product not Found with id:19]
+2026-08-25T14:51:33.145+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Received request to delete product with id: 17
+2026-08-25T14:51:33.160+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Product deleted successfully with id: 17
+2026-08-25T15:00:55.807+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Received request to update product with id: 7
+2026-08-25T15:00:55.823+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-6] c.e.demo.Controller.ProductController    : Product updated successfully with id: 7
+2026-08-25T15:04:16.677+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Received request to save product: laptop
+2026-08-25T15:04:16.690+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-9] c.e.demo.Controller.ProductController    : Product saved successfully: laptop
+2026-08-25T15:05:30.301+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Fetching low stock products. Threshold: 11
+2026-08-25T15:05:30.312+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-10] c.e.demo.Controller.ProductController    : Found 3 low stock products
+2026-08-25T15:07:16.125+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Received request to fetch product with id: 11
+2026-08-25T15:07:16.127+05:30  INFO 14280 --- [IMSProject] [http-nio-8081-exec-2] c.e.demo.Controller.ProductController    : Product found successfully with id: 11
+2026-08-25T15:54:38.480+05:30  INFO 14280 --- [IMSProject] [RMI TCP Connection(127)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-08-25T15:54:38.774+05:30  INFO 14280 --- [IMSProject] [RMI TCP Connection(127)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-08-25T15:54:39.013+05:30  INFO 14280 --- [IMSProject] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-08-25T15:54:39.107+05:30  INFO 14280 --- [IMSProject] [RMI TCP Connection(127)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-08-25T15:54:39.131+05:30  INFO 14280 --- [IMSProject] [RMI TCP Connection(127)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
